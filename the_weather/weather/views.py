@@ -30,9 +30,9 @@ def index(request):
  
     form = CityForm()
 
-    weather_data = []
-    ...
-    context = {'weather_data' : weather_data, 'form' : form}
+    
+    
+    
     context = {'weather_data' : weather_data}
 
     return render(request, 'weather/index.html', context) #returns the index.html template
